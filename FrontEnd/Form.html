@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>CRUD APPLICATION</title>
+</head>
+<body>
+    <h2>Fill This Form</h2>
+    <div class="form-user">
+        <form action="#" method="post">
+            <div>
+            <label for="forName">Name :</label><br><input type="text" name="Uname" placeholder="Enter Your Name"> 
+            </div>
+            <br>
+        <div>
+            <label for="forEmail">Email :</label><br><input type="email" name="Uemail" placeholder="Enter your Email">
+        </div>
+         <br>
+        <div>
+            <label for="forPass">Password :</label><br><input type="text" name="Upass" placeholder="Enter Your Password">
+        </div>
+         <br>
+        <div>
+            <label for="forGender">Select Gender :</label>
+            <label for="forMale">Male</label> <input type="radio" name="uGender"> 
+            <label for="forFemale">FeMale</label> <input type="radio" name="uGender">
+        </div>
+            <br>
+            <div>
+                <label for="forDate">Date of Birth :</label><br><input type="date" name="myDate">
+            </div>
+            <br>
+        <div>
+            <label for="forCountry">Select Country :</label><br>
+            <select name="uCountry">
+                <option value="India">India</option>
+                <option value="Canada">Canada</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Australia">Australia</option>
+            </select>
+        </div>
+            <br>
+        <div>
+            <label for="forSkill">Technical Skills</label> <br> 
+            <label><input type="checkbox" name="html" value="html"> HTML</label><br>
+            <label><input type="checkbox" name="css" value="css"> CSS</label><br>
+            <label><input type="checkbox" name="javascript" value="javascript"> JavaScript</label><br>
+            <label><input type="checkbox" name="python" value="python"> Python</label><br>
+            <label><input type="checkbox" name="java" value="java"> Java</label><br>
+            <label><input type="checkbox" name="jsp" value="jsp"> JSP</label><br>
+        </div>
+
+            <br>
+            <div>
+                 <label for="forText">Describe Yourself :</label><br>
+                 <textarea name="myText"  cols="30" rows="10"></textarea>
+            </div>
+            <br>
+        <div>
+            <input type="checkbox" name="uCheck">  Agree Terms And Condition
+        </div>
+            <br>
+        <div class="btn">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
