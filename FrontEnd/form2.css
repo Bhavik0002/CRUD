@@ -1,0 +1,40 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 5px;
+    background-color: #2196F3;
+    padding: 10px;
+    margin-top: 30px;
+  }
+  .form-control{
+    width: 30%;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(189, 163, 163, 0.8);
+    padding:10px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  table#tb1{
+    width: 80%;
+    margin-top: 40px;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #d4d4d4;
+    border-style: solid;
+    color: #000000;
+  }
+  
+  table#tb1 td, table.form-table th {
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 20px;
+  }
+  
+  table.form-table thead {
+    background-color: #fffdf5;
+  }
